@@ -1,0 +1,39 @@
+.contador {
+    display: flex;
+flex-direction:row;
+justify-content:  center;
+
+
+}
+
+.elements {
+    margin:10px;
+    font-size: 25px;
+}
+
+#number{
+    font-size: 30px;
+}
+
+#cartButton{
+    background-color: rgb(50, 50,50);
+    color: aliceblue;
+    font-size: large;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#addButton{
+    background-color: rgb(50, 50,50);
+    color: aliceblue;
+
+}
+
+#subsButton{
+    background-color: rgb(50, 50,50);
+    color: aliceblue;
+}
