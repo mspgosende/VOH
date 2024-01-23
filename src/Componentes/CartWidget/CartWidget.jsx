@@ -1,8 +1,9 @@
 import './CartWidget.css'
-import Carrito from "../Assets/images.png"
 import { useContext } from 'react';
 import { CartContext } from '../../CartContext/CartContext';
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const CartWidget = () => {
   const { totalQuantity } = useContext(CartContext) 
@@ -10,7 +11,7 @@ const CartWidget = () => {
     return(
         <div className="widget">
           <div className="CartWidget"> 
-            <Link className='carrito' to='/cart'>  <img id="carrito" src={Carrito} alt="" /></Link>
+            <Link className='carrito' to='/cart'>   <FontAwesomeIcon icon={faShoppingCart} /></Link>
             <span className='number' id='number'>{totalQuantity}</span>
           </div>
         </div>
