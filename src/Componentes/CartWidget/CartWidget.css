@@ -16,6 +16,10 @@
     margin-right: 5px;
 }
 
+#cartIcon{
+    size: 10px;
+}
+
 span {
     color: white;
     font-size:10px;
