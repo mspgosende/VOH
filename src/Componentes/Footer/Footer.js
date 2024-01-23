@@ -1,5 +1,5 @@
 import './Footer.css'
-import logo from  "../NavBar/logo.svg.png"
+import logo from  "../NavBar/logo.svg.jpeg"
 import { Link } from 'react-router-dom'
 
 
