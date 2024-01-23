@@ -30,7 +30,7 @@
   width: 90%;
  
   border-radius: 50%;
-  background-color: var(--uib-color);
+  background-color: #c8cdd9;
   will-change: transform;
   flex-shrink: 0;
 }
